@@ -9,7 +9,7 @@ const app = express();
 
 // Mongoose DB //
 const mongoURI =
-    "mongodb+srv://dosomethingwild012712:root@appointmentsdata.cwn5rm8.mongodb.net/?retryWrites=true&w=majority&appName=AppointmentsData"; //replace with env
+    ""; //replace with env
 
 mongoose.connect(mongoURI);
 
